@@ -6,12 +6,21 @@
 </head>
 <body>
 <script>
-    let value= prompt('Tên chính thức của tôi là gì ???')
-    if (value=="Lưu Văn Anh"){
-        alert('bạn đã đúng')
-    }else{
-        alert("đó không phải là tên của tôi")
+    let username= prompt("who's there?",)
+    if (username == 'Admin') {
+        alert('Welcome')
+    } else if (username == 'null') {
+        alert('Canceld')
+    } else {
+        alert("i don't you know")
     }
+    let password= prompt('password')
+    if (password == 'The Master') {
+        alert('welcome')
+    } else if (password == 'null') {
+        alert("Canceled")
+
+    } else ('Wrong password')
 </script>
 </body>
 </html>
