@@ -6,20 +6,18 @@
 </head>
 <body>
 <script>
-    let a = prompt('a?', '0');
-    switch (a) {
-        case '0':
-            alert('0')
-            break;
-        case '1':
-            alert('1')
-            break;
-        case '2':
-        case '3':
-            alert('2,3')
-            break;
+    let browser=prompt('Nhập Vào Đây')
+    switch (browser) {
+        case 'Edge':
+            alert("You've got the Edge!")
+        case 'Chrome':
+        case 'Firefox':
+        case 'Safari':
+        case 'opera':
+            alert('Okay we support these browsers too')
+        default:
+            alert('We hope that this page looks ok!')
     }
-
 </script>
 </body>
 </html>
