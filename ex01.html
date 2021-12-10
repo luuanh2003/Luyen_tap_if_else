@@ -6,21 +6,20 @@
 </head>
 <body>
 <script>
-    let username= prompt("who's there?",)
-    if (username == 'Admin') {
-        alert('Welcome')
-    } else if (username == 'null') {
-        alert('Canceld')
-    } else {
-        alert("i don't you know")
+    let browser=prompt('Nhập Vào Đây')
+    switch (browser){
+        case 'Edge':
+            alert("You've got the Edge!")
+            break;
+            case 'Chrome':
+            case 'Firefox':
+                case 'Safari':
+                case 'opera':
+                alert('Okay we support these browsers too')
+            break;
+                default:
+                    alert('We hope that this page looks ok!')
     }
-    let password= prompt('password')
-    if (password == 'The Master') {
-        alert('welcome')
-    } else if (password == 'null') {
-        alert("Canceled")
-
-    } else ('Wrong password')
 </script>
 </body>
 </html>
